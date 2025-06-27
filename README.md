@@ -4,11 +4,14 @@ This project is a simple **RESTful API** for managing a catalog of **medical dre
 
 ## 📚 Context
 
-This project was created as a backend-focused class exercise to practice building REST APIs with Java and Spring Boot, using MySQL as the database and Postman for testing.
+This project was developed as an academic exercise focused on backend development. The main goal was to gain hands-on experience building RESTful APIs using **Java**, **Spring Boot**, and **MySQL**, following good architectural practices such as separation of concerns and data validation.
 
 ## 🚀 Features
 
-- REST API with full CRUD support
-- MySQL database integration
-- Tested with Postman
-- Clear separation between Controller, Service, Repository
+- Full CRUD operations for **Dressings** and **Brands**
+- Many-to-many relationship between entities
+- Tested using **Postman**
+- Use of DTOs to decouple internal models from API contracts
+- Clear separation between `Controller`, `Service`, and `Repository` layers
+- Input validation to ensure data integrity
+
